@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palmarizarte</title>
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Palmarizarte</div>
+
+            <button class="menu-toggle" aria-label="Abrir-menú"> 
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Qué es Palmarizarte</a></li>
+                <li><a href="/cuentos/cuentos.html">Concurso de Cuento Palmarino</a></li>
+                <li><a href="#" id="openGalleryModal">Galeria</a></li>
+                <li><a href="/inicio de sesión/login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Modal de la Galería -->
+<div id="galleryModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery-container">
+            <img src="ruta/a/imagen1.jpg" alt="Imagen 1">
+            <img src="ruta/a/imagen2.jpg" alt="Imagen 2">
+            <img src="ruta/a/imagen3.jpg" alt="Imagen 3">
+            <img src="ruta/a/imagen4.jpg" alt="Imagen 4">
+            <img src="ruta/a/imagen5.jpg" alt="Imagen 5">
+            <img src="ruta/a/imagen6.jpg" alt="Imagen 6">
+        </div>
+    </div>
+</div>
+
+    <main>
+        <section class="actividades">
+            <h2>📌 Actividades</h2>
+            <ul>
+                <li>📅 Taller de escritura creativa - 15 de febrero</li>
+                <li>🎤 Charlas con escritores - 20 de febrero</li>
+                <li>📖 Lecturas en vivo - 25 de febrero</li>
+            </ul>
+        </section>
+
+        <section class="novedades">
+            <h2>📰 Novedades</h2>
+            <article>
+                <h3>📚 Nuevo concurso de cuento 2025</h3>
+                <p>Ya están abiertas las inscripciones para el concurso de cuento palmarino 2025.</p>
+            </article>
+            <article>
+                <h3>🏆 Ganadores del concurso 2024</h3>
+                <p>Descubre los cuentos ganadores de la edición pasada.</p>
+            </article>
+        </section>
+
+        <section class="articulos">
+            <h2>📝 Artículos de Opinión</h2>
+            <article>
+                <h3>✍️ El arte de narrar historias</h3>
+                <p>Un análisis sobre la importancia del cuento en la cultura caribeña.</p>
+            </article>
+        </section>
+    </main>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
